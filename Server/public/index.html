@@ -15,6 +15,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap"
     rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
 
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -30,19 +32,14 @@
   <link href="fonts/BlackerSansText-Regular.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
   <link href="fonts/BlackerSansText-Bold.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
 
-  <style>
-    @font-face {
-      font-family: 'Arimo';
-      src: url('fonts/Arimo-Regular.woff2') format('woff2');
-    }
-  </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51" style="font-family:'Arimo', sans-serif;">
   <!-- Navbar Start -->
   <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
     <a href="index.html" class="navbar-brand d-block d-lg-none">
-      <h1 class="font-secondary text-white mb-n2">Jack <span class="text-primary">&</span> Eleanor</h1>
+      <h1 class="font-secondary text-white mb-n2" style="color: var(--nav-text-color);">Jack <span
+          class="text-primary">&</span> Eleanor</h1>
     </a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
       <span class="navbar-toggler-icon"></span>
@@ -55,7 +52,8 @@
         <a href="#gallery" class="nav-item nav-link">Gallery</a>
       </div>
       <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
-        <h1 class="font-secondary text-white mb-n2">Jack <span class="text-primary">&</span> Eleanor</h1>
+        <h1 class="font-secondary text-white mb-n2" style="color: var(--nav-text-color);">Jack <span
+            class="text-primary">&</span> Eleanor</h1>
       </a>
       <div class="navbar-nav mr-auto py-0">
         <a href="#family" class="nav-item nav-link">Family</a>
@@ -124,10 +122,7 @@
         <div class="col-md-6 p-0 text-center text-md-right">
           <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
             <h3 class="mb-3">The Groom</h3>
-            <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum,
-              labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
-            <h3 class="font-secondary font-weight-normal text-muted mb-3"><i
-                class="fa fa-male text-primary pr-3"></i>Jack</h3>
+            <p>Only turning up for the food...and the party</p>
           </div>
         </div>
         <div class="col-md-6 p-0" style="min-height: 400px;">
@@ -141,10 +136,7 @@
         <div class="col-md-6 p-0 text-center text-md-left">
           <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
             <h3 class="mb-3">The Bride</h3>
-            <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum,
-              labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
-            <h3 class="font-secondary font-weight-normal text-muted mb-3"><i
-                class="fa fa-female text-primary pr-3"></i>Eleanor</h3>
+            <p>Only turning up for the photos...and because Jack's going</p>
           </div>
         </div>
       </div>
@@ -169,7 +161,8 @@
           <div class="col-md-6 text-center text-md-left">
             <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
               <h4 class="mb-2">First Meet</h4>
-              <p class="text-uppercase mb-2">01 Jan 2050</p>
+              <p class="text-uppercase mb-2">31<span style="text-transform: lowercase !important">st</span> March 2017
+              </p>
               <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos
                 tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor
                 elitr.</p>
@@ -196,7 +189,7 @@
           </div>
           <div class="col-md-6 text-center text-md-left">
             <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
-              <h4 class="mb-2">Proposal</h4>
+              <h4 class="mb-2">Nine Months Long Distance</h4>
               <p class="text-uppercase mb-2">01 Jan 2050</p>
               <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos
                 tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor
@@ -207,7 +200,7 @@
         <div class="row">
           <div class="col-md-6 text-center text-md-right">
             <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
-              <h4 class="mb-2">Enagagement</h4>
+              <h4 class="mb-2">Moved in together</h4>
               <p class="text-uppercase mb-2">01 Jan 2050</p>
               <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos
                 tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor
@@ -216,6 +209,20 @@
           </div>
           <div class="col-md-6 text-center text-md-left">
             <img class="img-fluid ml-md-3" src="img/story-4.jpg" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 text-center text-md-right">
+            <img class="img-fluid mr-md-3" src="img/story-3.jpg" alt="">
+          </div>
+          <div class="col-md-6 text-center text-md-left">
+            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+              <h4 class="mb-2">Engagement</h4>
+              <p class="text-uppercase mb-2">01 Jan 2050</p>
+              <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos
+                tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor
+                elitr.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -323,14 +330,8 @@
           <div class="position-relative mb-2">
             <img class="img-fluid w-100" src="img/groomsmen-1.jpg" alt="">
             <div class="bg-secondary text-center p-4">
-              <h4 class="mb-3">Full Name</h4>
-              <p class="text-uppercase">Best Friend</p>
-              <div class="d-inline-block">
-                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-              </div>
+              <h4 class="mb-3">Sam Walker</h4>
+              <p class="text-uppercase">Best Man</p>
             </div>
           </div>
         </div>
@@ -338,14 +339,8 @@
           <div class="position-relative mb-2">
             <img class="img-fluid w-100" src="img/bridesmaid-1.jpg" alt="">
             <div class="bg-secondary text-center p-4">
-              <h4 class="mb-3">Full Name</h4>
-              <p class="text-uppercase">Best Friend</p>
-              <div class="d-inline-block">
-                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-              </div>
+              <h4 class="mb-3">Megan Partington</h4>
+              <p class="text-uppercase">Maid of Honor</p>
             </div>
           </div>
         </div>
@@ -353,14 +348,8 @@
           <div class="position-relative mb-2">
             <img class="img-fluid w-100" src="img/groomsmen-2.jpg" alt="">
             <div class="bg-secondary text-center p-4">
-              <h4 class="mb-3">Full Name</h4>
-              <p class="text-uppercase">Best Friend</p>
-              <div class="d-inline-block">
-                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-              </div>
+              <h4 class="mb-3">Holly Vincent</h4>
+              <p class="text-uppercase">Maid of Honor</p>
             </div>
           </div>
         </div>
@@ -368,14 +357,8 @@
           <div class="position-relative mb-2">
             <img class="img-fluid w-100" src="img/bridesmaid-2.jpg" alt="">
             <div class="bg-secondary text-center p-4">
-              <h4 class="mb-3">Full Name</h4>
-              <p class="text-uppercase">Best Friend</p>
-              <div class="d-inline-block">
-                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-              </div>
+              <h4 class="mb-3">Keeley Richfield</h4>
+              <p class="text-uppercase">Bridesmaid</p>
             </div>
           </div>
         </div>
@@ -383,14 +366,17 @@
           <div class="position-relative mb-2">
             <img class="img-fluid w-100" src="img/groomsmen-3.jpg" alt="">
             <div class="bg-secondary text-center p-4">
-              <h4 class="mb-3">Full Name</h4>
-              <p class="text-uppercase">Best Friend</p>
-              <div class="d-inline-block">
-                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-              </div>
+              <h4 class="mb-3">Josh Hawthornthwaite</h4>
+              <p class="text-uppercase">Groomsmen</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+          <div class="position-relative mb-2">
+            <img class="img-fluid w-100" src="img/bridesmaid-2.jpg" alt="">
+            <div class="bg-secondary text-center p-4">
+              <h4 class="mb-3">Kelly Hawthornthwaite</h4>
+              <p class="text-uppercase">Bridesmaid</p>
             </div>
           </div>
         </div>
@@ -398,14 +384,26 @@
           <div class="position-relative mb-2">
             <img class="img-fluid w-100" src="img/bridesmaid-3.jpg" alt="">
             <div class="bg-secondary text-center p-4">
-              <h4 class="mb-3">Full Name</h4>
-              <p class="text-uppercase">Best Friend</p>
-              <div class="d-inline-block">
-                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-              </div>
+              <h4 class="mb-3">Rob Clarke</h4>
+              <p class="text-uppercase">Groomsmen</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+          <div class="position-relative mb-2">
+            <img class="img-fluid w-100" src="img/bridesmaid-3.jpg" alt="">
+            <div class="bg-secondary text-center p-4">
+              <h4 class="mb-3">Harry McGeachy</h4>
+              <p class="text-uppercase">Groomsmen</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+          <div class="position-relative mb-2">
+            <img class="img-fluid w-100" src="img/bridesmaid-3.jpg" alt="">
+            <div class="bg-secondary text-center p-4">
+              <h4 class="mb-3">Alfie Sargeant</h4>
+              <p class="text-uppercase">Groomsmen</p>
             </div>
           </div>
         </div>
@@ -475,8 +473,8 @@
   <div class="container-fluid bg-dark text-white py-5" id="contact" style="margin-top: 90px;">
     <div class="container text-center py-5">
       <div class="section-title position-relative text-center">
-        <h1 class="font-secondary display-3 text-white">Thank You</h1>
-        <i class="far fa-heart text-white"></i>
+        <h1 class="font-secondary display-3" style="color: var(--section-border-color);">Thank You</h1>
+        <i class="far fa-heart" style="color: var(--accent-color);"></i>
       </div>
     </div>
   </div>
